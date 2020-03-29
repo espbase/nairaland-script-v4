@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url>
+
+      <loc>http://localhost/nl1/u/admin</loc>
+
+      <lastmod>2020-03-28</lastmod>
+
+      <changefreq>daily</changefreq>
+
+      <priority>0.8</priority>
+
+   </url> <url>
+
+      <loc>http://localhost/nl1/u/marshall</loc>
+
+      <lastmod>2020-03-28</lastmod>
+
+      <changefreq>daily</changefreq>
+
+      <priority>0.8</priority>
+
+   </url> <url>
+
+      <loc>http://localhost/nl1/u/demo</loc>
+
+      <lastmod>2018-10-18</lastmod>
+
+      <changefreq>daily</changefreq>
+
+      <priority>0.8</priority>
+
+   </url></urlset>

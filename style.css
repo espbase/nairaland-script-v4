@@ -1,0 +1,38 @@
+
+
+
+
+#file{
+    color:green;
+    padding:5px; border:1px dashed #123456;
+    background-color: #f9ffe5;
+}
+#upload{
+    margin-left: 45px;
+}
+
+#noerror{
+    color:green;
+    text-align: left;
+}
+#error{
+    color:red;
+    text-align: left;
+}
+#img{ 
+    width: 17px;
+    border: none; 
+    height:17px;
+    margin-left: -20px;
+    margin-bottom: 91px;
+}
+
+.abcd{
+    text-align: center;
+}
+
+
+#formget{
+    float:right; 
+
+}
