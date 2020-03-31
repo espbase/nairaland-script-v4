@@ -34,7 +34,7 @@ $url=$rb['url'];
 $page_title='New Topic - '.$sname.', '. APPNAME;
 $site_title=APPNAME;
 $site_dsc='New Topic - '.$sname.', '. APPNAME;
-	
+  
 require_once 'incfiles/theme/blog_page_title.php';
 
 require_once 'incfiles/theme/metatag.php';
@@ -89,8 +89,8 @@ $asked=time();
 if ($user_id!=0) {
 
 $url=strtolower($newtitle).".html"; //."-".$newtitle.".html";
- $db->query("INSERT INTO topics (post_type, title, link, content_text, user_id_fk, board_id_fk, created, month, time, ip_address)
-   VALUES ('".$post_type."','".$title."', '".$url."', '".$content."', '".$user_id."', '".$bid."', '".$created."', '".$month."', '".$asked."', '$user_ip') ");
+ $db->query("INSERT INTO topics (post_type, title, link, content_text, user_id_fk, board_id_fk, created, status, month, time, ip_address)
+   VALUES ('".$post_type."','".$title."', '".$url."', '".$content."', '".$user_id."', '".$bid."', '".$created."', '0', '".$month."', '".$asked."', '$user_ip') ");
 //echo "$date-$urltitle.html";
 
  $db->query("INSERT INTO flaggedip (ip_address, user_Agent, ip_status, flagged_date)
@@ -259,7 +259,7 @@ require_once ('footer.php');
 ?>
 
 <script type="text/javascript" src="https://www.nairaland.com/static/nl2.js"></script>
-	</div>
+  </div>
 <!-- GOOGLE ANALYSTIC GOES HERE -->
 
 </body>
