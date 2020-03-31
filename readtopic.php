@@ -144,7 +144,7 @@ $('.love').click(function () {
                 link.html('(Like)');
                 $('#love'+id).css({
                 "font-size": "8.5pt",
-                "color": '#551818'
+                //"color": '#551818'
                 });
                 var dataString = "tid="+id+"&type=topic";
 
@@ -168,7 +168,7 @@ $('.love').click(function () {
                 link.html('(Unlike)');
                 $('#love'+id).css({
                 "font-weight": "bold",
-                "color": 'darkgreen',
+               // "color": 'darkgreen',
                 });
 
                 var dataString = "tid="+id+"&type=topic";
@@ -257,7 +257,7 @@ $('.clove').click(function () {
                 link.html('(Like)');
                 $('#clove'+id).css({
                 "font-size": "8.5pt",
-                "color": '#551818'
+                //"color": '#551818'
                 });
                 var dataString = "commentId="+id+"&type=comment";
 
@@ -281,7 +281,7 @@ $('.clove').click(function () {
                 link.html('(Unlike)');
                 $('#clove'+id).css({
                 "font-weight": "bold",
-                "color": 'darkgreen',
+                //"color": 'darkgreen',
                 });
 
                 var dataString = "commentId="+id+"&type=comment";
@@ -374,7 +374,7 @@ $('.share').click(function () {
                 link.html('(Share)');
                 $('#share'+id).css({
                 "font-size": "8.5pt",
-                "color": '#551818'
+                //"color": '#551818'
                 });
                 var dataString = "tid="+id+"&type=topic";
 
@@ -398,7 +398,7 @@ $('.share').click(function () {
                 link.html('(Un-Share)');
                 $('#share'+id).css({
                 "font-weight": "bold",
-                "color": 'darkgreen',
+             //   "color": 'darkgreen',
                 });
 
                 var dataString = "tid="+id+"&type=topic";
